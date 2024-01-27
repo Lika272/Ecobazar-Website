@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Ecobazar" />
+    <meta name="author" content="Lika" />
+    <link rel="icon" href="photos/Logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/details.css" />
+    <title>Ecobazar</title>
+  </head>
+  <body>
+    <header>
+      <div class="section header-line">
+        <div class="section__content headerSection">
+          <div class="header-line__location">
+            <img class="location-image" src="photos/MapPin.svg" alt="Map Pin" />
+            <span class="location-description"
+              >Store Location: Lincoln- 344, Illinois, Chicago, USA</span
+            >
+          </div>
+
+          <div class="header-line__signUp">
+            <span class="signUp-text"
+              >Eng
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="9"
+                height="6"
+                viewBox="0 0 9 6"
+                fill="none"
+              >
+                <path
+                  d="M8 1.25L4.5 4.75L1 1.25"
+                  stroke="#666666"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                /></svg
+            ></span>
+
+            <span class="signUp-text"
+              >USD
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="9"
+                height="6"
+                viewBox="0 0 9 6"
+                fill="none"
+              >
+                <path
+                  d="M8 1.25L4.5 4.75L1 1.25"
+                  stroke="#666666"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                /></svg
+            ></span>
+
+            <img src="photos/DeviderGrey.svg" alt="devider" />
+
+            <span
+              ><a class="signUp-text" href="signIn.html">Sign In</a> /
+              <a class="signUp-text" href="signUp.html">Sign Up</a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section search-line">
+        <div class="section__content searchSection">
+          <img
+            class="searchSection__logo"
+            src="photos/Logo.svg"
+            alt="Ecobazar Logo"
+          />
+
+          <div class="searchSection__input">
+            <input type="text" placeholder="Search" id="search__input" />
+            <input type="button" value="Search" id="Search__btn" />
+          </div>
+
+          <div class="searchSection__cart">
+            <img class="heart-icon" src="photos/Heart.svg" alt="heart icon" />
+            <img
+              class="cart-devider"
+              src="photos/Deviderbigger.svg"
+              alt="devider"
+            />
+            <a href="cart.html">
+              <img class="cart-icon" src="photos/Cart.svg" alt="cart icon" />
+            </a>
+            <div class="cart-info">
+              <span class="cart-info__text">Shopping cart:</span>
+              <span class="cart-info__amount">$57.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section nav-line">
+        <nav class="section__content navSection">
+          <ul class="navigation__menu">
+            <li class="navigation__menu-item greenSpan">
+              Home
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+              >
+                <path
+                  d="M1.33329 1.66675L5.99996 6.33341L10.6666 1.66675"
+                  stroke="#00B307"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+
+            <li class="navigation__menu-item">
+              Shop
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+              >
+                <path
+                  d="M1.33329 1.66675L5.99996 6.33341L10.6666 1.66675"
+                  stroke="#666666"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+
+            <li class="navigation__menu-item">
+              Pages
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+              >
+                <path
+                  d="M1.33329 1.66675L5.99996 6.33341L10.6666 1.66675"
+                  stroke="#666666"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+
+            <li class="navigation__menu-item">
+              Blog
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+              >
+                <path
+                  d="M1.33329 1.66675L5.99996 6.33341L10.6666 1.66675"
+                  stroke="#666666"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+
+            <li class="navigation__menu-item">About Us</li>
+
+            <li class="navigation__menu-item">
+              <a href="contact.html" class="navigation__menu-item"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+
+          <div class="navSection__phone">
+            <img src="photos/PhoneCallBlack.svg" alt="phone icon" />
+            <span>(219) 555-0114</span>
+          </div>
+        </nav>
+      </div>
+
+      <div class="section nav-line menuBacground">
+        <div class="section__content navSection menuBacground__Section">
+          <a href="index.html"
+            ><img src="photos/homeIcon.svg" alt="home icon" />
+          </a>
+          <img src="photos/rightArrow.svg" alt="right arrow" />
+          <span class="menuBacground__img">Order History</span>
+          <img src="photos/rightArrow.svg" alt="right arrow" />
+          <span class="menuBacground__img greenSpan">Order Detail</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="section">
+        <div class="section__content account__container">
+          <div class="account__container-navigation">
+            <h4 class="account__container-navigation__header">Navigation</h4>
+
+            <div class="account__container-navigation__section">
+              <img
+                class="navigation-icon"
+                src="photos/dashGrey.svg"
+                alt="dashboard"
+              />
+              <a href="#" class="navigation__section-link">Dashboard</a>
+            </div>
+
+            <div class="account__container-navigation__section selected">
+              <img
+                class="navigation-icon"
+                src="photos/orderBlack.svg"
+                alt="history"
+              />
+              <a href="history.html" class="navigation__section-link"
+                >Order History</a
+              >
+            </div>
+
+            <div class="account__container-navigation__section">
+              <img
+                class="navigation-icon"
+                src="photos/wishlistNavigat.svg"
+                alt="wishlist"
+              />
+              <a href="#" class="navigation__section-link">Wishlist</a>
+            </div>
+
+            <div class="account__container-navigation__section">
+              <img
+                class="navigation-icon"
+                src="photos/bagNavigat.svg"
+                alt="cart"
+              />
+              <a href="cart.html" class="navigation__section-link"
+                >Shopping Cart</a
+              >
+            </div>
+
+            <div class="account__container-navigation__section">
+              <img
+                class="navigation-icon"
+                src="photos/settingNavig.svg"
+                alt="Settings"
+              />
+              <a href="settings.html" class="navigation__section-link"
+                >Settings</a
+              >
+            </div>
+
+            <div class="account__container-navigation__section">
+              <img
+                class="navigation-icon"
+                src="photos/logOut.svg"
+                alt="Log-out"
+              />
+              <a href="#" class="navigation__section-link">Log-out</a>
+            </div>
+          </div>
+
+          <div class="orderDetail__section">
+            <div class="orderDetail__section-header">
+              <div class="header-linking">
+                <h4 class="section-header__heading">Order Details</h4>
+                <img src="photos/•.svg" alt="dot" />
+                <span class="header-description">April 24, 2021</span>
+                <img src="photos/•.svg" alt="dot" />
+                <span class="header-description">3 Products</span>
+              </div>
+              <a href="history.html" class="header-span">Back to list</a>
+            </div>
+
+            <div class="orderDetail__section-cards">
+              <div class="cards-group">
+                <div class="container-info__cards-address">
+                  <span class="cards-address__description"
+                    >BILLING ADDRESS</span
+                  >
+
+                  <h5 class="cards-address__name">Dainne Russell</h5>
+                  <span class="cards-address__info"
+                    >4140 Parker Rd. Allentown, New Mexico 31134</span
+                  >
+                  <span class="cards-address__mail"
+                    >dainne.ressell@gmail.com</span
+                  >
+                  <span class="cards-address__mobile">(671) 555-0110</span>
+                </div>
+                <div class="container-info__cards-address">
+                  <span class="cards-address__description"
+                    >SHIPPING ADDRESS</span
+                  >
+                  <h5 class="cards-address__name">Dainne Russell</h5>
+                  <span class="cards-address__info"
+                    >4140 Parker Rd. Allentown, New Mexico 31134</span
+                  >
+                  <span class="cards-address__mail"
+                    >dainne.ressell@gmail.com</span
+                  >
+                  <span class="cards-address__mobile">(671) 555-0110</span>
+                </div>
+              </div>
+
+              <div class="orderDetail__section-cards__pay">
+                <div class="cards__pay-header">
+                  <div class="cards__pay-header__section">
+                    <span class="pay-span">ORDER ID:</span>
+                    <span class="pay-value">#4152</span>
+                  </div>
+                  <img src="photos/deviderOrder.svg" alt="devider" />
+                  <div class="cards__pay-header__section">
+                    <span class="pay-span">Payment Method:</span>
+                    <span class="pay-value">Paypal</span>
+                  </div>
+                </div>
+
+                <div class="pay-infos">
+                  <span class="pay-infos__header">Subtotal:</span>
+                  <span class="pay-infos__amount">$365.00</span>
+                </div>
+
+                <div class="pay-infos">
+                  <span class="pay-infos__header">Discount:</span>
+                  <span class="pay-infos__amount">20%</span>
+                </div>
+
+                <div class="pay-infos">
+                  <span class="pay-infos__header">Shipping:</span>
+                  <span class="pay-infos__amount">Free</span>
+                </div>
+
+                <div class="pay-infos">
+                  <span class="pay-infos__Sum">Total</span>
+                  <span class="pay-infos__amountgreen">$84.00</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="imageCont">
+              <img src="photos/ProgressTracker.svg" alt="progress" />
+            </div>
+
+            <div class="info__order-description">
+              <span class="info__order-description__onject">PRODUCT</span>
+              <span class="info__order-description__onject">PRICE</span>
+              <span class="info__order-description__onject">QUANTITY</span>
+              <span class="info__order-description__onject">SUBTOTAL</span>
+            </div>
+
+            <div class="info__order-status">
+              <div class="order-name">
+                <img
+                  class="order-img"
+                  src="photos/redCap.svg"
+                  alt="red capsicum"
+                />
+                <span class="info__order-status__details">Red Capsicum</span>
+              </div>
+              <span class="info__order-status__details">$14.00</span>
+              <span class="info__order-status__details">x5</span>
+              <span class="info__order-status__details">$70.00</span>
+            </div>
+
+            <div class="info__order-status">
+              <div class="order-name">
+                <img
+                  class="order-img"
+                  src="photos/greencap.svg"
+                  alt="Green capsicum"
+                />
+                <span class="info__order-status__details">Green Capsicum</span>
+              </div>
+              <span class="info__order-status__details">$14.00</span>
+              <span class="info__order-status__details">x2</span>
+              <span class="info__order-status__details">$28.00</span>
+            </div>
+
+            <div class="info__order-status">
+              <div class="order-name">
+                <img
+                  class="order-img"
+                  src="photos/chilli.svg"
+                  alt="green chilli"
+                />
+                <span class="info__order-status__details">Green Chilli</span>
+              </div>
+              <span class="info__order-status__details">$26.70</span>
+              <span class="info__order-status__details">x10</span>
+              <span class="info__order-status__details">$267.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section subscribeContainer">
+        <div class="section__content categoriesSection subscribeSection">
+          <div class="subscribeSection__info">
+            <div class="subscribeSection__info-description">
+              <h4 class="subscribeSection__info-description-header">
+                Subcribe our Newsletter
+              </h4>
+              <p class="subscribeSection__info-description-text">
+                Pellentesque eu nibh eget mauris congue mattis mattis nec
+                tellus. Phasellus imperdiet elit eu magna.
+              </p>
+            </div>
+
+            <div class="subscribeSection__info-socialinput">
+              <div class="searchSection__input subscribeSection__info-input">
+                <input
+                  type="email"
+                  placeholder="Your email address"
+                  id="mail__input"
+                />
+                <input type="button" value="Subscribe" id="Subscribe__btn" />
+              </div>
+
+              <div class="subscribeSection__info-social">
+                <img src="photos/facebook.svg" alt="social icon" />
+                <img src="photos/twitter.svg" alt="social icon" />
+                <img src="photos/pinterest.svg" alt="social icon" />
+                <img src="photos/instagram.svg" alt="social icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="section footerContainerMain">
+        <div class="section__content categoriesSection">
+          <div class="footerSection">
+            <div class="footerSection__logo">
+              <img
+                class="ecobazarFooter__logo"
+                src="photos/LogoFooter.svg"
+                alt="ecobazar logo"
+              />
+              <p class="footerSection__description">
+                Morbi cursus porttitor enim lobortis molestie. Duis gravida
+                turpis dui, eget bibendum magna congue nec.
+              </p>
+              <span class="footerSection__Number"
+                >(219) 555-0114 <span class="footerSection-or">or</span>
+                <span class="footerSection__mail"></span> Proxy@gmail.com
+              </span>
+            </div>
+
+            <div class="footerSection__account">
+              <span class="footerSection__account-header">My Account</span>
+              <a href="account.html" class="footerSection__account-topics"
+                >My Account</a
+              >
+              <a href="history.html" class="footerSection__account-topics"
+                >Order History</a
+              >
+              <a
+                href="cart.html"
+                class="footerSection__account-topics whiteFooter"
+                >Shopping Cart</a
+              >
+              <span class="footerSection__account-topics">Whishlist</span>
+            </div>
+
+            <div class="footerSection__account">
+              <span class="footerSection__account-header">Helps</span>
+              <span class="footerSection__account-topics">Faqs</span>
+              <span class="footerSection__account-topics"
+                >Terms & Condition</span
+              >
+              <span class="footerSection__account-topics">Faqs</span>
+              <span class="footerSection__account-topics">Privacy Policy</span>
+            </div>
+
+            <div class="footerSection__account">
+              <span class="footerSection__account-header">Proxy</span>
+              <span class="footerSection__account-topics">About</span>
+              <span class="footerSection__account-topics">Shop</span>
+              <span class="footerSection__account-topics">Product</span>
+              <span class="footerSection__account-topics">Track Order</span>
+            </div>
+
+            <div class="footerSection__account">
+              <span class="footerSection__account-header">Categories</span>
+              <span class="footerSection__account-topics"
+                >Fruit & Vegetables</span
+              >
+              <span class="footerSection__account-topics">Meat & Fish</span>
+              <span class="footerSection__account-topics">Bread & Bakery</span>
+              <span class="footerSection__account-topics">Beauty & Health</span>
+            </div>
+          </div>
+
+          <div class="footerRights">
+            <div class="footerRight-text">
+              <span>Ecobazar eCommerce © 2021. All Rights Reserved</span>
+            </div>
+
+            <div class="footerRight-cards">
+              <img src="photos/Method=ApplePay.svg" alt="apple pay" />
+              <img src="photos/Method=Visa.svg" alt="visa pay" />
+              <img src="photos/Method=Discover.svg" alt="discover pay" />
+              <img src="photos/Method=Mastercard.svg" alt="mastercard pay" />
+              <img src="photos/securePayment.svg" alt="secure pay" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

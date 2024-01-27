@@ -1,0 +1,1553 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Ecobazar" />
+    <meta name="author" content="Lika" />
+    <link rel="icon" href="photos/Logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/styles.css" />
+    <title>Ecobazar Website</title>
+  </head>
+  <body>
+    <header>
+      <div class="section header-line">
+        <div class="section__content headerSection">
+          <div class="header-line__location">
+            <img class="location-image" src="photos/MapPin.svg" alt="Map Pin" />
+            <span class="location-description"
+              >Store Location: Lincoln- 344, Illinois, Chicago, USA</span
+            >
+          </div>
+
+          <div class="header-line__signUp">
+            <span class="signUp-text"
+              >Eng
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="9"
+                height="6"
+                viewBox="0 0 9 6"
+                fill="none"
+              >
+                <path
+                  d="M8 1.25L4.5 4.75L1 1.25"
+                  stroke="#666666"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                /></svg
+            ></span>
+
+            <span class="signUp-text"
+              >USD
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="9"
+                height="6"
+                viewBox="0 0 9 6"
+                fill="none"
+              >
+                <path
+                  d="M8 1.25L4.5 4.75L1 1.25"
+                  stroke="#666666"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                /></svg
+            ></span>
+
+            <img src="photos/smallDevider.svg" alt="devider" />
+
+            <span
+              ><a class="signUp-text" href="signIn.html">Sign In</a> /
+              <a class="signUp-text" href="signUp.html">Sign Up</a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section search-line">
+        <div class="section__content searchSection">
+          <img
+            class="searchSection__logo"
+            src="photos/Logo.svg"
+            alt="Ecobazar Logo"
+          />
+
+          <div class="searchSection__input">
+            <input type="text" placeholder="Search" id="search__input" />
+            <input type="button" value="Search" id="Search__btn" />
+          </div>
+
+          <div class="searchSection__cart">
+            <img class="heart-icon" src="photos/Heart.svg" alt="heart icon" />
+            <img
+              class="cart-devider"
+              src="photos/Deviderbigger.svg"
+              alt="devider"
+            />
+            <a href="cart.html">
+              <img class="cart-icon" src="photos/Cart.svg" alt="cart icon" />
+            </a>
+            <div class="cart-info">
+              <span class="cart-info__text">Shopping cart:</span>
+              <span class="cart-info__amount">$57.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section nav-line">
+        <nav class="section__content navSection">
+          <ul class="navigation__menu">
+            <li class="navigation__menu-item white-span">
+              Home
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+              >
+                <path
+                  d="M1.33335 1.66675L6.00002 6.33341L10.6667 1.66675"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+            <li class="navigation__menu-item">
+              Shop
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+              >
+                <path
+                  d="M1.33335 1.66675L6.00002 6.33341L10.6667 1.66675"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+
+            <li class="navigation__menu-item">
+              Pages
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+              >
+                <path
+                  d="M1.33335 1.66675L6.00002 6.33341L10.6667 1.66675"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+
+            <li class="navigation__menu-item">
+              Blog
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+              >
+                <path
+                  d="M1.33335 1.66675L6.00002 6.33341L10.6667 1.66675"
+                  stroke="white"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+
+            <li class="navigation__menu-item">About Us</li>
+
+            <li class="navigation__menu-item">
+              <a href="contact.html" class="navigation__menu-item"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+
+          <div class="navSection__phone">
+            <img src="photos/PhoneCall.svg" alt="phone icon" />
+            <span class="white-span">(219) 555-0114</span>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <div class="section bannars">
+        <div class="section__content bannarsSection">
+          <img
+            class="bannarsSection__main"
+            src="photos/BannarBig.svg"
+            alt="main bannar"
+          />
+          <div class="bannarsSection__small">
+            <div class="small__bannar">
+              <span class="small__bannar-heading">SUMMER SALE</span>
+              <h5 class="small__bannar-header">75% OFF</h5>
+              <span class="small__bannar__description"
+                >Only Fruit & Vegetable</span
+              >
+              <div class="small__bannar__btn">
+                <span class="small__bannar__btn-text">Shop Now</span>
+                <img
+                  class="small__bannar__btn-icon"
+                  src="photos/arrowright-green.svg"
+                  alt="arrow right"
+                />
+              </div>
+            </div>
+
+            <div class="small__bannar centered-bannar">
+              <span class="small__bannar-heading greenBannar">Best Deal</span>
+              <h5 class="small__bannar-header greenBannar">
+                Special Products Deal of the Month
+              </h5>
+              <div class="small__bannar__btn">
+                <span class="small__bannar__btn-text">Shop Now</span>
+                <img
+                  class="small__bannar__btn-icon"
+                  src="photos/arrowright-green.svg"
+                  alt="arrow right"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section shipping">
+        <div class="section__content shippingSection">
+          <div class="shippingSection__shipping-card">
+            <img src="photos/delivery-truck.svg" alt="delivery truck" />
+            <div class="shippingSection__shipping-card__txt">
+              <span class="shipping-card__header">Free Shipping</span>
+              <span class="shipping-description"
+                >Free shipping on all your order</span
+              >
+            </div>
+          </div>
+
+          <div class="shippingSection__shipping-card">
+            <img src="photos/headphones.svg" alt="headphones" />
+            <div class="shippingSection__shipping-card__txt">
+              <span class="shipping-card__header">Customer Support 24/7</span>
+              <span class="shipping-description"
+                >Instant access to Support</span
+              >
+            </div>
+          </div>
+
+          <div class="shippingSection__shipping-card">
+            <img src="photos/shopping-bag.svg" alt="shopping bag" />
+            <div class="shippingSection__shipping-card__txt">
+              <span class="shipping-card__header">100% Secure Payment</span>
+              <span class="shipping-description"
+                >We ensure your money is save</span
+              >
+            </div>
+          </div>
+
+          <div class="shippingSection__shipping-card">
+            <img src="photos/package.svg" alt="package" />
+            <div class="shippingSection__shipping-card__txt">
+              <span class="shipping-card__header">Money-Back Guarantee</span>
+              <span class="shipping-description"
+                >30 Days Money-Back Guarantee</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section categories">
+        <div class="section__content categoriesSection">
+          <h2 class="categoriesSection__header-heading">Popular Categories</h2>
+          <div class="small__bannar__btn categories-btn">
+            <span class="small__bannar__btn-text">View All</span>
+            <img
+              class="small__bannar__btn-icon"
+              src="photos/arrowright-green.svg"
+              alt="arrow right"
+            />
+          </div>
+
+          <div class="categoriesSection__products">
+            <div class="categoriesSection__products-card">
+              <img src="photos/freshFruit.svg" alt="Fresh Fruit" />
+              <h4 class="products-card__header">Fresh Fruit</h4>
+            </div>
+
+            <a class="vegetablesLink" href="vegetables.html">
+              <div class="categoriesSection__products-card green">
+                <img src="photos/vegetables.svg" alt="Fresh Vegetables" />
+                <h4 class="products-card__header greenHeader">
+                  Fresh Vegetables
+                </h4>
+              </div>
+            </a>
+
+            <div class="categoriesSection__products-card">
+              <img src="photos/meatfish.svg" alt="Fresh Meat & Fish" />
+              <h4 class="products-card__header">Fresh Meat & Fish</h4>
+            </div>
+
+            <div class="categoriesSection__products-card">
+              <img src="photos/snacks.svg" alt="Snacks" />
+              <h4 class="products-card__header">Snacks</h4>
+            </div>
+
+            <div class="categoriesSection__products-card">
+              <img src="photos/beverages.svg" alt="Beverages" />
+              <h4 class="products-card__header">Beverages</h4>
+            </div>
+
+            <div class="categoriesSection__products-card">
+              <img src="photos/beauty.svg" alt="Beauty & Health" />
+              <h4 class="products-card__header">Beauty & Health</h4>
+            </div>
+
+            <div class="categoriesSection__products-card">
+              <img src="photos/bread.svg" alt="Bread & Bakery" />
+              <h4 class="products-card__header">Bread & Bakery</h4>
+            </div>
+
+            <div class="categoriesSection__products-card">
+              <img src="photos/baking.svg" alt="Baking Needs" />
+              <h4 class="products-card__header">Baking Needs</h4>
+            </div>
+
+            <div class="categoriesSection__products-card">
+              <img src="photos/cooking.svg" alt="Cooking" />
+              <h4 class="products-card__header">Cooking</h4>
+            </div>
+
+            <div class="categoriesSection__products-card">
+              <img src="photos/diabetic.svg" alt="Diabetic Food" />
+              <h4 class="products-card__header">Diabetic Food</h4>
+            </div>
+
+            <div class="categoriesSection__products-card">
+              <img src="photos/dish.svg" alt="Dish Detergents" />
+              <h4 class="products-card__header">Dish Detergents</h4>
+            </div>
+
+            <div class="categoriesSection__products-card">
+              <img src="photos/oil.svg" alt="Oil" />
+              <h4 class="products-card__header">Oil</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section categories">
+        <div class="section__content categoriesSection">
+          <h2 class="categoriesSection__header-heading">Popular Products</h2>
+          <div class="small__bannar__btn categories-btn">
+            <span class="small__bannar__btn-text">View All</span>
+            <img
+              class="small__bannar__btn-icon"
+              src="photos/arrowright-green.svg"
+              alt="arrow right"
+            />
+          </div>
+
+          <div class="popularSection__products">
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="products-card__img"
+                  src="photos/apple.svg"
+                  alt="apple"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading"
+                    >Green Apple</span
+                  >
+                  <span class="products-card__product-price"
+                    >$14.99
+                    <span class="product-price__span"> $20.99</span></span
+                  >
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="products-card__img"
+                  src="photos/orange.svg"
+                  alt="orange"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading"
+                    >Fresh Indian Malta</span
+                  >
+                  <span class="products-card__product-price">$20.00</span>
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <a href="cabbage.html" class="linkingCabbage">
+              <div class="popularsSection__products-card green">
+                <div class="products-card__text">
+                  <img
+                    class="products-card__img"
+                    src="photos/cabbage.svg"
+                    alt="cabbage"
+                  />
+                  <div class="products-card__product greenbag">
+                    <span class="products-card__product-heading greenHeader"
+                      >Chinese cabbage</span
+                    >
+                    <span class="products-card__product-price">$12.00</span>
+                    <img class="rating" src="photos/Rating.svg" alt="rating" />
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="products-card__img"
+                  src="photos/lettuce.svg"
+                  alt="lettuce"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading"
+                    >Green Lettuce</span
+                  >
+                  <span class="products-card__product-price"
+                    >$9.00<span class="product-price__span"> $20.99</span></span
+                  >
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="products-card__img"
+                  src="photos/eggplant.svg"
+                  alt="eggplant"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading">Eggplant</span>
+                  <span class="products-card__product-price">$34.00</span>
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="products-card__img"
+                  src="photos/potatoes.svg"
+                  alt="Big Potatoes"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading"
+                    >Big Potatoes</span
+                  >
+                  <span class="products-card__product-price">$20.00</span>
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="products-card__img"
+                  src="photos/corn.svg"
+                  alt="corn"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading">Corn</span>
+                  <span class="products-card__product-price"
+                    >$20.00<span class="product-price__span">
+                      $20.99</span
+                    ></span
+                  >
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="products-card__img"
+                  src="photos/cauliflower.svg"
+                  alt="Fresh Cauliflower"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading"
+                    >Fresh Cauliflower</span
+                  >
+                  <span class="products-card__product-price">$12.00</span>
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="products-card__img"
+                  src="photos/capsicum.svg"
+                  alt="Green Capsicum"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading"
+                    >Green Capsicum</span
+                  >
+                  <span class="products-card__product-price"
+                    >$9.00<span class="product-price__span"> $20.99</span></span
+                  >
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="products-card__img"
+                  src="photos/chilli.svg"
+                  alt="Green Chili"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading"
+                    >Green Chili</span
+                  >
+                  <span class="products-card__product-price">$34.00</span>
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="dealsContainer">
+            <div class="dealsContainer__card">
+              <span class="dealsContainer__card__span">BEST DEALS</span>
+              <h2 class="dealsContainer__card__header">Sale of the Month</h2>
+
+              <div class="dealsContainer__card__time">
+                <div class="dealsContainer__card__time-section">
+                  <span class="time-section__time">00</span>
+                  <span class="time-section__words">DAYS</span>
+                </div>
+
+                <span class="time-section__dots">:</span>
+
+                <div class="dealsContainer__card__time-section">
+                  <span class="time-section__time">02</span>
+                  <span class="time-section__words">HOURS</span>
+                </div>
+
+                <span class="time-section__dots">:</span>
+
+                <div class="dealsContainer__card__time-section">
+                  <span class="time-section__time">18</span>
+                  <span class="time-section__words">MINS</span>
+                </div>
+
+                <span class="time-section__dots">:</span>
+
+                <div class="dealsContainer__card__time-section">
+                  <span class="time-section__time">46</span>
+                  <span class="time-section__words">SECS</span>
+                </div>
+              </div>
+
+              <div class="small__bannar__btn categories-btn deals__btn">
+                <span class="small__bannar__btn-text">Shop Now</span>
+                <img
+                  class="small__bannar__btn-icon"
+                  src="photos/arrowright-green.svg"
+                  alt="arrow right"
+                />
+              </div>
+            </div>
+
+            <div class="dealsContainer__card meat">
+              <span class="dealsContainer__card__span">85% FAT FREE</span>
+              <h2 class="dealsContainer__card__header">Low-Fat Meat</h2>
+
+              <div class="dealsContainer__card__time">
+                <span class="card__time-text"
+                  >Started at <span class="orange-text">$79.99</span></span
+                >
+              </div>
+
+              <div class="small__bannar__btn categories-btn deals__btn">
+                <span class="small__bannar__btn-text">Shop Now</span>
+                <img
+                  class="small__bannar__btn-icon"
+                  src="photos/arrowright-green.svg"
+                  alt="arrow right"
+                />
+              </div>
+            </div>
+
+            <div class="dealsContainer__card fruit">
+              <span class="dealsContainer__card__span">SUMMER SALE</span>
+              <h2 class="dealsContainer__card__header">100% Fresh Fruit</h2>
+
+              <div class="dealsContainer__card__time">
+                <span class="card__time-text"
+                  >Up to <span class="blacrBacground-text">64% OFF</span></span
+                >
+              </div>
+
+              <div class="small__bannar__btn categories-btn deals__btn">
+                <span class="small__bannar__btn-text">Shop Now</span>
+                <img
+                  class="small__bannar__btn-icon"
+                  src="photos/arrowright-green.svg"
+                  alt="arrow right"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section categories hotDeals">
+        <div class="section__content categoriesSection">
+          <h2 class="categoriesSection__header-heading">Hot Deals</h2>
+          <div class="small__bannar__btn categories-btn">
+            <span class="small__bannar__btn-text">View All</span>
+            <img
+              class="small__bannar__btn-icon"
+              src="photos/arrowright-green.svg"
+              alt="arrow right"
+            />
+          </div>
+
+          <div class="hotDeals__products">
+            <div class="hotDeals__products-bigCard">
+              <div class="bigCard-span">
+                <span class="bigcard-redbtn">Sale 50%</span>
+                <span class="bigcard-bluebtn">Best Sale</span>
+              </div>
+
+              <img
+                class="bigCard-apples"
+                src="photos/appleHordeal.svg"
+                alt="apples"
+              />
+              <div class="bigCard-addtocart">
+                <img src="photos/Wishlist.svg" alt="wishlist" />
+                <button class="bigCard-button">
+                  Add to Cart
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="18"
+                    height="17"
+                    viewBox="0 0 18 17"
+                    fill="none"
+                  >
+                    <path
+                      d="M5.66667 6.83333H3.16667L1.5 16H16.5L14.8333 6.83333H12.3333M5.66667 6.83333V4.33333C5.66667 2.49239 7.15905 1 9 1V1C10.8409 1 12.3333 2.49238 12.3333 4.33333V6.83333M5.66667 6.83333H12.3333M5.66667 6.83333V9.33333M12.3333 6.83333V9.33333"
+                      stroke="white"
+                      stroke-width="1.3"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                    />
+                  </svg>
+                </button>
+                <img src="photos/QuickView.svg" alt="Qiuck View" />
+              </div>
+
+              <div class="bigCard-description">
+                <span class="bigCard-description__header greenHeaderCard"
+                  >Chinese cabbage</span
+                >
+                <span class="products-card__product-price"
+                  >$12.00<span class="product-price__span"> $24.00</span></span
+                >
+                <img src="photos/Rating5stars.svg" alt="rating" />
+
+                <span class="bigCard-description__endOffer"
+                  >Hurry up! Offer ends In:</span
+                >
+
+                <div class="dealsContainer__card__time">
+                  <div class="dealsContainer__card__time-section">
+                    <span class="time-section__time black">01</span>
+                    <span class="time-section__words grey">DAYS</span>
+                  </div>
+
+                  <span class="time-section__dots grey">:</span>
+
+                  <div class="dealsContainer__card__time-section">
+                    <span class="time-section__time black">23</span>
+                    <span class="time-section__words grey">HOURS</span>
+                  </div>
+
+                  <span class="time-section__dots grey">:</span>
+
+                  <div class="dealsContainer__card__time-section">
+                    <span class="time-section__time black">34</span>
+                    <span class="time-section__words grey">MINS</span>
+                  </div>
+
+                  <span class="time-section__dots grey">:</span>
+
+                  <div class="dealsContainer__card__time-section">
+                    <span class="time-section__time black">57</span>
+                    <span class="time-section__words grey">SECS</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="hotDeals__products-smallCard">
+              <div class="popularsSection__products-card">
+                <div class="products-card__text">
+                  <img
+                    class="hotDeals__img"
+                    src="photos/cabbageHotdeal.svg"
+                    alt="lettuce"
+                  />
+                  <div class="products-card__product">
+                    <span class="products-card__product-heading"
+                      >Chinese cabbage</span
+                    >
+                    <span class="products-card__product-price">$12.00 </span>
+                    <img class="rating" src="photos/Rating.svg" alt="rating" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="popularsSection__products-card">
+                <div class="products-card__text">
+                  <img
+                    class="hotDeals__img"
+                    src="photos/lettuce.svg"
+                    alt="lettuce"
+                  />
+                  <div class="products-card__product">
+                    <span class="products-card__product-heading"
+                      >Green Lettuce</span
+                    >
+                    <span class="products-card__product-price">$9.00 </span>
+                    <img class="rating" src="photos/Rating.svg" alt="rating" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="popularsSection__products-card">
+                <div class="products-card__text">
+                  <img
+                    class="hotDeals__img"
+                    src="photos/eggplant.svg"
+                    alt="eggplant"
+                  />
+                  <div class="products-card__product">
+                    <span class="products-card__product-heading">Eggplant</span>
+                    <span class="products-card__product-price">$34.00</span>
+                    <img class="rating" src="photos/Rating.svg" alt="rating" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="popularsSection__products-card">
+                <div class="products-card__text">
+                  <img
+                    class="hotDeals__img"
+                    src="photos/cauliflower.svg"
+                    alt="Fresh Cauliflower"
+                  />
+                  <div class="products-card__product">
+                    <span class="products-card__product-heading"
+                      >Fresh Cauliflower</span
+                    >
+                    <span class="products-card__product-price">$12.00</span>
+                    <img class="rating" src="photos/Rating.svg" alt="rating" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="popularsSection__products-card">
+                <div class="products-card__text">
+                  <img
+                    class="hotDeals__img"
+                    src="photos/capsicum.svg"
+                    alt="Green Capsicum"
+                  />
+                  <div class="products-card__product">
+                    <span class="products-card__product-heading"
+                      >Green Capsicum</span
+                    >
+                    <span class="products-card__product-price"
+                      >$9.00<span class="product-price__span">
+                        $20.99</span
+                      ></span
+                    >
+                    <img class="rating" src="photos/Rating.svg" alt="rating" />
+                  </div>
+                </div>
+              </div>
+
+              <div class="popularsSection__products-card">
+                <div class="products-card__text">
+                  <img
+                    class="hotDeals__img"
+                    src="photos/chilli.svg"
+                    alt="Green Chili"
+                  />
+                  <div class="products-card__product">
+                    <span class="products-card__product-heading"
+                      >Green Chili</span
+                    >
+                    <span class="products-card__product-price">$34.00</span>
+                    <img class="rating" src="photos/Rating.svg" alt="rating" />
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="hotDeals_productsList">
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="hotDeals__img"
+                  src="photos/potatoes.svg"
+                  alt="Big Potatoes"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading"
+                    >Big Potatoes</span
+                  >
+                  <span class="products-card__product-price">$12.00 </span>
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img class="hotDeals__img" src="photos/corn.svg" alt="Corn" />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading">Corn</span>
+                  <span class="products-card__product-price">$12.00</span>
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="hotDeals__img"
+                  src="photos/chilli.svg"
+                  alt="Red Chili"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading">Red Chili</span>
+                  <span class="products-card__product-price">$12.00</span>
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="hotDeals__img"
+                  src="photos/tomato.svg"
+                  alt="Red Tomatos"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading"
+                    >Red Tomatos</span
+                  >
+                  <span class="products-card__product-price"
+                    >$9.00<span class="product-price__span"> $20.99</span></span
+                  >
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="hotDeals__img"
+                  src="photos/mango.svg"
+                  alt="Surjapur Mango"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading"
+                    >Surjapur Mango</span
+                  >
+                  <span class="products-card__product-price">$34.00</span>
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section categories featuredProducts">
+        <img
+          class="featuredProducts__image"
+          src="photos/DiscountBannar.svg"
+          alt="discount Bannar"
+        />
+        <div class="section__content categoriesSection">
+          <h2 class="categoriesSection__header-heading">Featured Products</h2>
+          <div class="small__bannar__btn categories-btn">
+            <span class="small__bannar__btn-text">View All</span>
+            <img
+              class="small__bannar__btn-icon"
+              src="photos/arrowright-green.svg"
+              alt="arrow right"
+            />
+          </div>
+
+          <div class="popularSection__products">
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="products-card__img"
+                  src="photos/apple.svg"
+                  alt="apple"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading"
+                    >Green Apple</span
+                  >
+                  <span class="products-card__product-price"
+                    >$14.99
+                    <span class="product-price__span"> $20.99</span></span
+                  >
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="products-card__img"
+                  src="photos/orange.svg"
+                  alt="orange"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading"
+                    >Fresh Indian Malta</span
+                  >
+                  <span class="products-card__product-price">$20.00</span>
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card green">
+              <div class="products-card__text">
+                <img
+                  class="products-card__img"
+                  src="photos/cabbage.svg"
+                  alt="cabbage"
+                />
+                <div class="products-card__product greenbag">
+                  <span class="products-card__product-heading greenHeader"
+                    >Chinese cabbage</span
+                  >
+                  <span class="products-card__product-price">$12.00</span>
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="products-card__img"
+                  src="photos/lettuce.svg"
+                  alt="lettuce"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading"
+                    >Green Lettuce</span
+                  >
+                  <span class="products-card__product-price"
+                    >$9.00<span class="product-price__span"> $20.99</span></span
+                  >
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="popularsSection__products-card">
+              <div class="products-card__text">
+                <img
+                  class="products-card__img"
+                  src="photos/eggplant.svg"
+                  alt="eggplant"
+                />
+                <div class="products-card__product">
+                  <span class="products-card__product-heading">Eggplant</span>
+                  <span class="products-card__product-price">$34.00</span>
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section categories featuredProducts">
+        <div class="section__content categoriesSection latestNews__section">
+          <h2 class="categoriesSection__header-heading">Latest News</h2>
+
+          <div class="latestNews__section-cards">
+            <div class="latestNews__section-cards__card">
+              <div class="latestNews__section-cards__card-img">
+                <div class="latestNews__section-background">
+                  <span class="latestNews__section-background-number">18</span>
+                  <span class="latestNews__section-background-month">NOV</span>
+                </div>
+              </div>
+
+              <div class="latestNews__description">
+                <div class="latestNews__section-icons">
+                  <span class="latestNews__section-icon"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="21"
+                      viewBox="0 0 20 21"
+                      fill="none"
+                    >
+                      <path
+                        d="M17.1584 11.6751L11.1834 17.6501C11.0286 17.805 10.8448 17.928 10.6424 18.0118C10.4401 18.0957 10.2232 18.1389 10.0042 18.1389C9.78516 18.1389 9.56828 18.0957 9.36595 18.0118C9.16362 17.928 8.97981 17.805 8.82502 17.6501L1.66669 10.5001V2.16675H10L17.1584 9.32508C17.4688 9.63735 17.643 10.0598 17.643 10.5001C17.643 10.9404 17.4688 11.3628 17.1584 11.6751V11.6751Z"
+                        stroke="#B3B3B3"
+                        stroke-width="1.2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M5.83337 6.3335H5.84171"
+                        stroke="#B3B3B3"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    Food</span
+                  >
+
+                  <span class="latestNews__section-icon"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="21"
+                      viewBox="0 0 20 21"
+                      fill="none"
+                    >
+                      <path
+                        d="M9.9999 9.66667C11.8408 9.66667 13.3332 8.17428 13.3332 6.33333C13.3332 4.49238 11.8408 3 9.9999 3C8.15895 3 6.66656 4.49238 6.66656 6.33333C6.66656 8.17428 8.15895 9.66667 9.9999 9.66667Z"
+                        stroke="#B3B3B3"
+                        stroke-width="1.2"
+                      />
+                      <path
+                        d="M12.4999 12.1667H7.49995C5.19828 12.1667 3.13745 14.2917 4.65161 16.0242C5.68161 17.2026 7.38495 18.0001 9.99995 18.0001C12.6149 18.0001 14.3174 17.2026 15.3474 16.0242C16.8624 14.2909 14.8008 12.1667 12.4999 12.1667Z"
+                        stroke="#B3B3B3"
+                        stroke-width="1.2"
+                      /></svg
+                    >By Admin</span
+                  >
+
+                  <span class="latestNews__section-icon"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="19"
+                      viewBox="0 0 18 19"
+                      fill="none"
+                    >
+                      <path
+                        d="M10.5238 14.2728L9.48206 16.0087C9.43209 16.092 9.36139 16.1609 9.27687 16.2088C9.19234 16.2566 9.09686 16.2818 8.99972 16.2818C8.90258 16.2818 8.8071 16.2566 8.72257 16.2088C8.63804 16.1609 8.56735 16.092 8.51738 16.0087L7.47675 14.2728C7.42671 14.1895 7.35596 14.1206 7.27138 14.0728C7.1868 14.025 7.09128 13.9999 6.99413 14H2.8125C2.66332 14 2.52024 13.9407 2.41475 13.8352C2.30926 13.7298 2.25 13.5867 2.25 13.4375V4.4375C2.25 4.28832 2.30926 4.14524 2.41475 4.03975C2.52024 3.93426 2.66332 3.875 2.8125 3.875H15.1875C15.3367 3.875 15.4798 3.93426 15.5852 4.03975C15.6907 4.14524 15.75 4.28832 15.75 4.4375V13.4375C15.75 13.5867 15.6907 13.7298 15.5852 13.8352C15.4798 13.9407 15.3367 14 15.1875 14H11.0059C10.9088 14 10.8134 14.0252 10.7289 14.073C10.6445 14.1208 10.5738 14.1896 10.5238 14.2728V14.2728Z"
+                        stroke="#B3B3B3"
+                        stroke-width="1.2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    65 Comments</span
+                  >
+                </div>
+
+                <span class="latestNews__section-description greenHeader"
+                  >Curabitur porttitor orci eget neque accumsan venenatis. Nunc
+                  fermentum.</span
+                >
+
+                <div class="small__bannar__btn categories-btn readMore-btn">
+                  <span class="small__bannar__btn-text">Read More</span>
+                  <img
+                    class="small__bannar__btn-icon"
+                    src="photos/arrowright-green.svg"
+                    alt="arrow right"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="latestNews__section-cards__card">
+              <div class="latestNews__section-cards__card-img eggBowl">
+                <div class="latestNews__section-background">
+                  <span class="latestNews__section-background-number">29</span>
+                  <span class="latestNews__section-background-month">JAN</span>
+                </div>
+              </div>
+
+              <div class="latestNews__description">
+                <div class="latestNews__section-icons">
+                  <span class="latestNews__section-icon"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="21"
+                      viewBox="0 0 20 21"
+                      fill="none"
+                    >
+                      <path
+                        d="M17.1584 11.6751L11.1834 17.6501C11.0286 17.805 10.8448 17.928 10.6424 18.0118C10.4401 18.0957 10.2232 18.1389 10.0042 18.1389C9.78516 18.1389 9.56828 18.0957 9.36595 18.0118C9.16362 17.928 8.97981 17.805 8.82502 17.6501L1.66669 10.5001V2.16675H10L17.1584 9.32508C17.4688 9.63735 17.643 10.0598 17.643 10.5001C17.643 10.9404 17.4688 11.3628 17.1584 11.6751V11.6751Z"
+                        stroke="#B3B3B3"
+                        stroke-width="1.2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M5.83337 6.3335H5.84171"
+                        stroke="#B3B3B3"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    Food</span
+                  >
+
+                  <span class="latestNews__section-icon"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="21"
+                      viewBox="0 0 20 21"
+                      fill="none"
+                    >
+                      <path
+                        d="M9.9999 9.66667C11.8408 9.66667 13.3332 8.17428 13.3332 6.33333C13.3332 4.49238 11.8408 3 9.9999 3C8.15895 3 6.66656 4.49238 6.66656 6.33333C6.66656 8.17428 8.15895 9.66667 9.9999 9.66667Z"
+                        stroke="#B3B3B3"
+                        stroke-width="1.2"
+                      />
+                      <path
+                        d="M12.4999 12.1667H7.49995C5.19828 12.1667 3.13745 14.2917 4.65161 16.0242C5.68161 17.2026 7.38495 18.0001 9.99995 18.0001C12.6149 18.0001 14.3174 17.2026 15.3474 16.0242C16.8624 14.2909 14.8008 12.1667 12.4999 12.1667Z"
+                        stroke="#B3B3B3"
+                        stroke-width="1.2"
+                      /></svg
+                    >By Admin</span
+                  >
+
+                  <span class="latestNews__section-icon"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="19"
+                      viewBox="0 0 18 19"
+                      fill="none"
+                    >
+                      <path
+                        d="M10.5238 14.2728L9.48206 16.0087C9.43209 16.092 9.36139 16.1609 9.27687 16.2088C9.19234 16.2566 9.09686 16.2818 8.99972 16.2818C8.90258 16.2818 8.8071 16.2566 8.72257 16.2088C8.63804 16.1609 8.56735 16.092 8.51738 16.0087L7.47675 14.2728C7.42671 14.1895 7.35596 14.1206 7.27138 14.0728C7.1868 14.025 7.09128 13.9999 6.99413 14H2.8125C2.66332 14 2.52024 13.9407 2.41475 13.8352C2.30926 13.7298 2.25 13.5867 2.25 13.4375V4.4375C2.25 4.28832 2.30926 4.14524 2.41475 4.03975C2.52024 3.93426 2.66332 3.875 2.8125 3.875H15.1875C15.3367 3.875 15.4798 3.93426 15.5852 4.03975C15.6907 4.14524 15.75 4.28832 15.75 4.4375V13.4375C15.75 13.5867 15.6907 13.7298 15.5852 13.8352C15.4798 13.9407 15.3367 14 15.1875 14H11.0059C10.9088 14 10.8134 14.0252 10.7289 14.073C10.6445 14.1208 10.5738 14.1896 10.5238 14.2728V14.2728Z"
+                        stroke="#B3B3B3"
+                        stroke-width="1.2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    65 Comments</span
+                  >
+                </div>
+
+                <span class="latestNews__section-description"
+                  >Eget lobortis lorem lacinia. Vivamus pharetra semper,</span
+                >
+
+                <div class="small__bannar__btn categories-btn readMore-btn">
+                  <span class="small__bannar__btn-text">Read More</span>
+                  <img
+                    class="small__bannar__btn-icon"
+                    src="photos/arrowright-green.svg"
+                    alt="arrow right"
+                  />
+                </div>
+              </div>
+            </div>
+
+            <div class="latestNews__section-cards__card">
+              <div class="latestNews__section-cards__card-img vegetablesBowl">
+                <div class="latestNews__section-background">
+                  <span class="latestNews__section-background-number">21</span>
+                  <span class="latestNews__section-background-month">FEB</span>
+                </div>
+              </div>
+
+              <div class="latestNews__description">
+                <div class="latestNews__section-icons">
+                  <span class="latestNews__section-icon"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="21"
+                      viewBox="0 0 20 21"
+                      fill="none"
+                    >
+                      <path
+                        d="M17.1584 11.6751L11.1834 17.6501C11.0286 17.805 10.8448 17.928 10.6424 18.0118C10.4401 18.0957 10.2232 18.1389 10.0042 18.1389C9.78516 18.1389 9.56828 18.0957 9.36595 18.0118C9.16362 17.928 8.97981 17.805 8.82502 17.6501L1.66669 10.5001V2.16675H10L17.1584 9.32508C17.4688 9.63735 17.643 10.0598 17.643 10.5001C17.643 10.9404 17.4688 11.3628 17.1584 11.6751V11.6751Z"
+                        stroke="#B3B3B3"
+                        stroke-width="1.2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                      <path
+                        d="M5.83337 6.3335H5.84171"
+                        stroke="#B3B3B3"
+                        stroke-width="1.5"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    Food</span
+                  >
+
+                  <span class="latestNews__section-icon"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="20"
+                      height="21"
+                      viewBox="0 0 20 21"
+                      fill="none"
+                    >
+                      <path
+                        d="M9.9999 9.66667C11.8408 9.66667 13.3332 8.17428 13.3332 6.33333C13.3332 4.49238 11.8408 3 9.9999 3C8.15895 3 6.66656 4.49238 6.66656 6.33333C6.66656 8.17428 8.15895 9.66667 9.9999 9.66667Z"
+                        stroke="#B3B3B3"
+                        stroke-width="1.2"
+                      />
+                      <path
+                        d="M12.4999 12.1667H7.49995C5.19828 12.1667 3.13745 14.2917 4.65161 16.0242C5.68161 17.2026 7.38495 18.0001 9.99995 18.0001C12.6149 18.0001 14.3174 17.2026 15.3474 16.0242C16.8624 14.2909 14.8008 12.1667 12.4999 12.1667Z"
+                        stroke="#B3B3B3"
+                        stroke-width="1.2"
+                      /></svg
+                    >By Admin</span
+                  >
+
+                  <span class="latestNews__section-icon"
+                    ><svg
+                      xmlns="http://www.w3.org/2000/svg"
+                      width="18"
+                      height="19"
+                      viewBox="0 0 18 19"
+                      fill="none"
+                    >
+                      <path
+                        d="M10.5238 14.2728L9.48206 16.0087C9.43209 16.092 9.36139 16.1609 9.27687 16.2088C9.19234 16.2566 9.09686 16.2818 8.99972 16.2818C8.90258 16.2818 8.8071 16.2566 8.72257 16.2088C8.63804 16.1609 8.56735 16.092 8.51738 16.0087L7.47675 14.2728C7.42671 14.1895 7.35596 14.1206 7.27138 14.0728C7.1868 14.025 7.09128 13.9999 6.99413 14H2.8125C2.66332 14 2.52024 13.9407 2.41475 13.8352C2.30926 13.7298 2.25 13.5867 2.25 13.4375V4.4375C2.25 4.28832 2.30926 4.14524 2.41475 4.03975C2.52024 3.93426 2.66332 3.875 2.8125 3.875H15.1875C15.3367 3.875 15.4798 3.93426 15.5852 4.03975C15.6907 4.14524 15.75 4.28832 15.75 4.4375V13.4375C15.75 13.5867 15.6907 13.7298 15.5852 13.8352C15.4798 13.9407 15.3367 14 15.1875 14H11.0059C10.9088 14 10.8134 14.0252 10.7289 14.073C10.6445 14.1208 10.5738 14.1896 10.5238 14.2728V14.2728Z"
+                        stroke="#B3B3B3"
+                        stroke-width="1.2"
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                      />
+                    </svg>
+                    65 Comments</span
+                  >
+                </div>
+
+                <span class="latestNews__section-description"
+                  >Maecenas blandit risus elementum mauris malesuada.</span
+                >
+
+                <div class="small__bannar__btn categories-btn readMore-btn">
+                  <span class="small__bannar__btn-text">Read More</span>
+                  <img
+                    class="small__bannar__btn-icon"
+                    src="photos/arrowright-green.svg"
+                    alt="arrow right"
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section categories hotDeals">
+        <div class="section__content categoriesSection">
+          <h2 class="categoriesSection__header-heading">Client Testimonials</h2>
+          <div class="small__bannar__btn categories-btn">
+            <img src="photos/Arrows.svg" alt="arrows" />
+          </div>
+
+          <div class="clientTestimonials__cards">
+            <div class="clientTestimonials__card">
+              <img class="quotes" src="photos/quote.svg" alt="quote" />
+              <p class="clientTestimonials__card-description">
+                Pellentesque eu nibh eget mauris congue mattis mattis nec
+                tellus. Phasellus imperdiet elit eu magna dictum, bibendum
+                cursus velit sodales. Donec sed neque eget
+              </p>
+              <div class="clientTestimonials__card-info">
+                <div class="card-info__client">
+                  <div class="card-info__client-photo">
+                    <img src="photos/robert.svg" alt="Robert Fox" />
+
+                    <div class="card-info__name">
+                      <span class="card-info__name-customer"> Robert Fox </span>
+                      <span class="card-info__name-position"> Customer </span>
+                    </div>
+                  </div>
+
+                  <img class="fiveStars" src="photos/starss.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="clientTestimonials__card">
+              <img class="quotes" src="photos/quote.svg" alt="quote" />
+              <p class="clientTestimonials__card-description">
+                Pellentesque eu nibh eget mauris congue mattis mattis nec
+                tellus. Phasellus imperdiet elit eu magna dictum, bibendum
+                cursus velit sodales. Donec sed neque eget
+              </p>
+              <div class="clientTestimonials__card-info">
+                <div class="card-info__client">
+                  <div class="card-info__client-photo">
+                    <img src="photos/dianne.svg" alt="Dianne Russell" />
+
+                    <div class="card-info__name">
+                      <span class="card-info__name-customer">
+                        Dianne Russell
+                      </span>
+                      <span class="card-info__name-position"> Customer </span>
+                    </div>
+                  </div>
+
+                  <img class="fiveStars" src="photos/starss.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+
+            <div class="clientTestimonials__card">
+              <img class="quotes" src="photos/quote.svg" alt="quote" />
+              <p class="clientTestimonials__card-description">
+                Pellentesque eu nibh eget mauris congue mattis mattis nec
+                tellus. Phasellus imperdiet elit eu magna dictum, bibendum
+                cursus velit sodales. Donec sed neque eget
+              </p>
+              <div class="clientTestimonials__card-info">
+                <div class="card-info__client">
+                  <div class="card-info__client-photo">
+                    <img src="photos/Eleanor.svg" alt="Eleanor Pena" />
+
+                    <div class="card-info__name">
+                      <span class="card-info__name-customer">
+                        Eleanor Pena
+                      </span>
+                      <span class="card-info__name-position"> Customer </span>
+                    </div>
+                  </div>
+
+                  <img class="fiveStars" src="photos/starss.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section categories featuredProducts">
+        <div class="section__content categoriesSection latestNews__section">
+          <div class="insta__partners">
+            <img src="photos/steps.svg" alt="steps logo" />
+            <img src="photos/verticalSmallline.svg" alt="small line" />
+            <img src="photos/mango-1.svg" alt="mango logo" />
+            <img src="photos/verticalSmallline.svg" alt="small line" />
+            <img src="photos/foodGroup.svg" alt="food group logo" />
+            <img src="photos/verticalSmallline.svg" alt="small line" />
+            <img src="photos/foodUk.svg" alt="food uk logo" />
+            <img src="photos/verticalSmallline.svg" alt="small line" />
+            <img src="photos/bookoff-corporation-logo.svg" alt="bookoff logo" />
+            <img src="photos/verticalSmallline.svg" alt="small line" />
+            <img src="photos/GSeries.svg" alt="g series logo" />
+          </div>
+
+          <h2 class="categoriesSection__header-heading">
+            Follow us on Instagram
+          </h2>
+
+          <div class="insta__partners-posts">
+            <img src="photos/InstagramTomato.svg" alt="insta post" />
+            <img src="photos/instagramGreen.svg" alt="insta post" />
+            <img src="photos/instagramTrees.svg" alt="insta post" />
+            <img src="photos/instaPepper.svg" alt="insta post" />
+            <img src="photos/instaSpinach.svg" alt="insta post" />
+            <img src="photos/instaOrage.svg" alt="insta post" />
+          </div>
+        </div>
+      </div>
+
+      <div class="section categories featuredProducts subscribeContainer">
+        <div class="section__content categoriesSection subscribeSection">
+          <div class="subscribeSection__info">
+            <div class="subscribeSection__info-description">
+              <h4 class="subscribeSection__info-description-header">
+                Subcribe our Newsletter
+              </h4>
+              <p class="subscribeSection__info-description-text">
+                Pellentesque eu nibh eget mauris congue mattis mattis nec
+                tellus. Phasellus imperdiet elit eu magna.
+              </p>
+            </div>
+
+            <div class="subscribeSection__info-socialinput">
+              <div class="searchSection__input subscribeSection__info-input">
+                <input
+                  type="email"
+                  placeholder="Your email address"
+                  id="mail__input"
+                />
+                <input type="button" value="Subscribe" id="Subscribe__btn" />
+              </div>
+
+              <div class="subscribeSection__info-social">
+                <img src="photos/facebook.svg" alt="social icon" />
+                <img src="photos/twitter.svg" alt="social icon" />
+                <img src="photos/pinterest.svg" alt="social icon" />
+                <img src="photos/instagram.svg" alt="social icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="section footerContainerMain">
+        <div class="section__content categoriesSection">
+          <div class="footerSection">
+            <div class="footerSection__logo">
+              <img
+                class="ecobazarFooter__logo"
+                src="photos/LogoFooter.svg"
+                alt="ecobazar logo"
+              />
+              <p class="footerSection__description">
+                Morbi cursus porttitor enim lobortis molestie. Duis gravida
+                turpis dui, eget bibendum magna congue nec.
+              </p>
+              <span class="footerSection__Number"
+                >(219) 555-0114 <span class="footerSection-or">or</span>
+                <span class="footerSection__mail"></span> Proxy@gmail.com
+              </span>
+            </div>
+
+            <div class="footerSection__account">
+              <span class="footerSection__account-header">My Account</span>
+              <a href="account.html" class="footerSection__account-topics"
+                >My Account</a
+              >
+              <a href="history.html" class="footerSection__account-topics"
+                >Order History</a
+              >
+              <a
+                href="cart.html"
+                class="footerSection__account-topics whiteFooter"
+                >Shopping Cart</a
+              >
+              <span class="footerSection__account-topics">Whishlist</span>
+            </div>
+
+            <div class="footerSection__account">
+              <span class="footerSection__account-header">Helps</span>
+              <span class="footerSection__account-topics">Faqs</span>
+              <span class="footerSection__account-topics"
+                >Terms & Condition</span
+              >
+              <span class="footerSection__account-topics">Faqs</span>
+              <span class="footerSection__account-topics">Privacy Policy</span>
+            </div>
+
+            <div class="footerSection__account">
+              <span class="footerSection__account-header">Proxy</span>
+              <span class="footerSection__account-topics">About</span>
+              <span class="footerSection__account-topics">Shop</span>
+              <span class="footerSection__account-topics">Product</span>
+              <span class="footerSection__account-topics">Track Order</span>
+            </div>
+
+            <div class="footerSection__account">
+              <span class="footerSection__account-header">Categories</span>
+              <span class="footerSection__account-topics"
+                >Fruit & Vegetables</span
+              >
+              <span class="footerSection__account-topics">Meat & Fish</span>
+              <span class="footerSection__account-topics">Bread & Bakery</span>
+              <span class="footerSection__account-topics">Beauty & Health</span>
+            </div>
+          </div>
+
+          <div class="footerRights">
+            <div class="footerRight-text">
+              <span>Ecobazar eCommerce © 2021. All Rights Reserved</span>
+            </div>
+
+            <div class="footerRight-cards">
+              <img src="photos/Method=ApplePay.svg" alt="apple pay" />
+              <img src="photos/Method=Visa.svg" alt="visa pay" />
+              <img src="photos/Method=Discover.svg" alt="discover pay" />
+              <img src="photos/Method=Mastercard.svg" alt="mastercard pay" />
+              <img src="photos/securePayment.svg" alt="secure pay" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

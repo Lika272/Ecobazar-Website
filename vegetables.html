@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Ecobazar" />
+    <meta name="author" content="Lika" />
+    <link rel="icon" href="photos/Logo.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Mulish:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/normalize.css" />
+    <link rel="stylesheet" href="styles/vegetables.css" />
+    <title>Ecobazar</title>
+  </head>
+  <body>
+    <header>
+      <div class="section header-line">
+        <div class="section__content headerSection">
+          <div class="header-line__location">
+            <img class="location-image" src="photos/MapPin.svg" alt="Map Pin" />
+            <span class="location-description"
+              >Store Location: Lincoln- 344, Illinois, Chicago, USA</span
+            >
+          </div>
+
+          <div class="header-line__signUp">
+            <span class="signUp-text"
+              >Eng
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="9"
+                height="6"
+                viewBox="0 0 9 6"
+                fill="none"
+              >
+                <path
+                  d="M8 1.25L4.5 4.75L1 1.25"
+                  stroke="#666666"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                /></svg
+            ></span>
+
+            <span class="signUp-text"
+              >USD
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="9"
+                height="6"
+                viewBox="0 0 9 6"
+                fill="none"
+              >
+                <path
+                  d="M8 1.25L4.5 4.75L1 1.25"
+                  stroke="#666666"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                /></svg
+            ></span>
+
+            <img src="photos/DeviderGrey.svg" alt="devider" />
+
+            <span
+              ><a class="signUp-text" href="signIn.html">Sign In</a> /
+              <a class="signUp-text" href="signUp.html">Sign Up</a>
+            </span>
+          </div>
+        </div>
+      </div>
+
+      <div class="section search-line">
+        <div class="section__content searchSection">
+          <img
+            class="searchSection__logo"
+            src="photos/Logo.svg"
+            alt="Ecobazar Logo"
+          />
+
+          <div class="searchSection__input">
+            <input type="text" placeholder="Search" id="search__input" />
+            <input type="button" value="Search" id="Search__btn" />
+          </div>
+
+          <div class="searchSection__cart">
+            <img class="heart-icon" src="photos/Heart.svg" alt="heart icon" />
+            <img
+              class="cart-devider"
+              src="photos/Deviderbigger.svg"
+              alt="devider"
+            />
+            <a href="cart.html">
+              <img class="cart-icon" src="photos/Cart.svg" alt="cart icon" />
+            </a>
+            <div class="cart-info">
+              <span class="cart-info__text">Shopping cart:</span>
+              <span class="cart-info__amount">$57.00</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section nav-line">
+        <nav class="section__content navSection">
+          <ul class="navigation__menu">
+            <li class="navigation__menu-item green">
+              Home
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+              >
+                <path
+                  d="M1.33329 1.66675L5.99996 6.33341L10.6666 1.66675"
+                  stroke="#00B307"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+
+            <li class="navigation__menu-item">
+              Shop
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+              >
+                <path
+                  d="M1.33329 1.66675L5.99996 6.33341L10.6666 1.66675"
+                  stroke="#666666"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+
+            <li class="navigation__menu-item">
+              Pages
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+              >
+                <path
+                  d="M1.33329 1.66675L5.99996 6.33341L10.6666 1.66675"
+                  stroke="#666666"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+
+            <li class="navigation__menu-item">
+              Blog
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="12"
+                height="8"
+                viewBox="0 0 12 8"
+                fill="none"
+              >
+                <path
+                  d="M1.33329 1.66675L5.99996 6.33341L10.6666 1.66675"
+                  stroke="#666666"
+                  stroke-width="1.5"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </li>
+
+            <li class="navigation__menu-item">About Us</li>
+
+            <li class="navigation__menu-item">
+              <a href="contact.html" class="navigation__menu-item"
+                >Contact Us</a
+              >
+            </li>
+          </ul>
+
+          <div class="navSection__phone">
+            <img src="photos/PhoneCallBlack.svg" alt="phone icon" />
+            <span>(219) 555-0114</span>
+          </div>
+        </nav>
+      </div>
+
+      <div class="section nav-line menuBacground">
+        <div class="section__content navSection menuBacground__Section">
+          <a href="index.html"
+            ><img src="photos/homeIcon.svg" alt="home icon" />
+          </a>
+          <img src="photos/rightArrow.svg" alt="right arrow" />
+          <span class="menuBacground__img">Categories</span>
+          <img src="photos/rightArrow.svg" alt="right arrow" />
+          <span class="menuBacground__img green">Vegetables</span>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <div class="section__content">
+        <aside>
+          <button class="aside__btn">
+            Filter <img src="photos/Filter.svg" alt="filter icon" />
+          </button>
+          <div class="aside__Containers">
+            <div class="aside__Categories">
+              <h3 class="aside__header">All Categories</h3>
+              <img src="photos/arrowTop.svg" alt="arrow top" />
+            </div>
+            <form action="#">
+              <div class="radioContainer">
+                <input id="radio-1" name="radio" type="radio" />
+                <label for="radio-1" class="radio-label"
+                  >Fresh Fruit (25) <span class="radio__span">(134)</span>
+                </label>
+              </div>
+
+              <div class="radioContainer">
+                <input id="radio-2" name="radio" type="radio" />
+                <label for="radio-2" class="radio-label"
+                  >Vegetables <span class="radio__span">(150)</span>
+                </label>
+              </div>
+
+              <div class="radioContainer">
+                <input id="radio-3" name="radio" type="radio" />
+                <label for="radio-3" class="radio-label"
+                  >Cooking <span class="radio__span">(54)</span>
+                </label>
+              </div>
+
+              <div class="radioContainer">
+                <input id="radio-4" name="radio" type="radio" />
+                <label for="radio-4" class="radio-label"
+                  >Snacks <span class="radio__span">(47)</span>
+                </label>
+              </div>
+
+              <div class="radioContainer">
+                <input id="radio-5" name="radio" type="radio" />
+                <label for="radio-5" class="radio-label"
+                  >Beverages <span class="radio__span">(43)</span>
+                </label>
+              </div>
+
+              <div class="radioContainer">
+                <input id="radio-6" name="radio" type="radio" />
+                <label for="radio-6" class="radio-label"
+                  >Beauty & Health <span class="radio__span">(38)</span>
+                </label>
+              </div>
+
+              <div class="radioContainer">
+                <input id="radio-7" name="radio" type="radio" />
+                <label for="radio-7" class="radio-label"
+                  >Bread & Bakery <span class="radio__span">(15)</span>
+                </label>
+              </div>
+            </form>
+          </div>
+          <div class="aside__Containers">
+            <div class="aside__price">
+              <h3 class="aside__header">Price</h3>
+              <img src="photos/arrowTop.svg" alt="arrow top" />
+            </div>
+
+            <img class="rating__image" src="photos/Slider.svg" alt="slider" />
+
+            <span class="radio__span ratingSpan"
+              >Price: <span class="radio-label"> 50 — 1,500 </span></span
+            >
+          </div>
+
+          <div class="aside__Containers">
+            <div class="aside__price">
+              <h3 class="aside__header">Rating</h3>
+              <img src="photos/arrowTop.svg" alt="arrow top" />
+            </div>
+
+            <form action="#">
+              <div class="checkboxContainer">
+                <input id="checkbox-1" name="checkbox" type="checkbox" />
+                <label for="checkbox-1" class="checkbox-label"
+                  ><img src="photos/fiveRating.svg" alt="rating 5"
+                /></label>
+              </div>
+
+              <div class="checkboxContainer">
+                <input id="checkbox-2" name="checkbox" type="checkbox" />
+                <label for="checkbox-2" class="checkbox-label"
+                  ><img src="photos/Rating4stars.svg" alt="rating 4"
+                /></label>
+              </div>
+
+              <div class="checkboxContainer">
+                <input id="checkbox-3" name="checkbox" type="checkbox" />
+                <label for="checkbox-3" class="checkbox-label"
+                  ><img src="photos/Rating3stars.svg" alt="rating 3"
+                /></label>
+              </div>
+
+              <div class="checkboxContainer">
+                <input id="checkbox-4" name="checkbox" type="checkbox" />
+                <label for="checkbox-4" class="checkbox-label"
+                  ><img src="photos/Rating2star.svg" alt="rating 2"
+                /></label>
+              </div>
+
+              <div class="checkboxContainer">
+                <input id="checkbox-5" name="checkbox" type="checkbox" />
+                <label for="checkbox-5" class="checkbox-label"
+                  ><img src="photos/Rating1star.svg" alt="rating 1"
+                /></label>
+              </div>
+            </form>
+          </div>
+
+          <div class="aside__Containers">
+            <div class="aside__price">
+              <h3 class="aside__header">Popular Tag</h3>
+              <img src="photos/arrowTop.svg" alt="arrow top" />
+            </div>
+
+            <div class="aside__Popular-tags">
+              <button class="tags__btn">Healthy</button>
+              <button class="tags__btn greenBtn">Low Fat</button>
+              <button class="tags__btn">Vetarian</button>
+              <button class="tags__btn">Kid foods</button>
+              <button class="tags__btn">Vitamins</button>
+              <button class="tags__btn">Bread</button>
+              <button class="tags__btn">Meat</button>
+              <button class="tags__btn">Snacks</button>
+              <button class="tags__btn">Tiffin</button>
+              <button class="tags__btn">Launch</button>
+              <button class="tags__btn">Dinner</button>
+              <button class="tags__btn">Breakfast</button>
+              <button class="tags__btn">Fruit</button>
+            </div>
+          </div>
+
+          <img src="photos/BannarDiscount.svg" alt="discount bannar" />
+
+          <div class="aside__Containers">
+            <h3 class="aside__header">Sale Products</h3>
+
+            <div class="aside__cards">
+              <div class="aside__card">
+                <img
+                  class="aside__card-img"
+                  src="photos/redCap.svg"
+                  alt="red capsicum"
+                />
+                <div class="aside__card__product">
+                  <span class="aside__card__product-heading">Red Capsicum</span>
+                  <span class="aside__card__product-price"
+                    >$32.00 <span class="aside__card__span"> $20.99</span></span
+                  >
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+
+              <div class="aside__card greenBorder">
+                <img
+                  class="aside__card-img"
+                  src="photos/smallMango.svg"
+                  alt="Chanise Cabbage"
+                />
+                <div class="aside__card__product">
+                  <span class="aside__card__product-heading greenHeader"
+                    >Chanise Cabbage</span
+                  >
+                  <span class="aside__card__product-price"
+                    >$32.00 <span class="aside__card__span"> $20.99</span></span
+                  >
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+
+              <div class="aside__card">
+                <img
+                  class="aside__card-img"
+                  src="photos/greencap.svg"
+                  alt="green capsicum"
+                />
+                <div class="aside__card__product">
+                  <span class="aside__card__product-heading"
+                    >Green Capsicum</span
+                  >
+                  <span class="aside__card__product-price"
+                    >$32.00 <span class="aside__card__span"> $20.99</span></span
+                  >
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </aside>
+
+        <div class="mainProducts__container">
+          <div class="mainProducts__sort">
+            <div class="mainProducts__sort-dropdown">
+              <span class="mainProducts__sort-dropdown-text"
+                >Sort by:
+                <button class="mainProducts__sort-dropdown-text__btn">
+                  Latest
+                </button></span
+              >
+            </div>
+
+            <div class="mainProducts__sort-results">
+              <span class="mainProducts__sort-results__number">52</span>
+              <span class="mainProducts__sort-results__text"
+                >Results Found
+              </span>
+            </div>
+          </div>
+
+          <div class="mainProducts__sort-cards">
+            <div class="products-card__text">
+              <img
+                class="products-card__img smallImage"
+                src="photos/potatoes.svg"
+                alt="Big Potatoes"
+              />
+              <div class="products-card__product">
+                <span class="products-card__product-heading">Big Potatoes</span>
+                <span class="products-card__product-price">$14.99</span>
+                <img class="rating" src="photos/Rating.svg" alt="rating" />
+              </div>
+            </div>
+
+            <a class="linked" href="cabbage.html">
+              <div class="products-card__text cabbageOutline">
+                <img
+                  class="products-card__img smallImage"
+                  src="photos/cabbage.svg"
+                  alt="Chanise Cabbage"
+                />
+                <div class="products-card__product cabbagebackground">
+                  <span class="products-card__product-heading cabbageHeader"
+                    >Chanise Cabbage</span
+                  >
+                  <span class="products-card__product-price">$14.99</span>
+                  <img class="rating" src="photos/Rating.svg" alt="rating" />
+                </div>
+              </div>
+            </a>
+
+            <div class="products-card__text">
+              <button class="products-card__btnRed products-card__btn">
+                Out of Stock
+              </button>
+              <img
+                class="products-card__img"
+                src="photos/corn.svg"
+                alt="corn"
+              />
+              <div class="products-card__product">
+                <span class="products-card__product-heading">Corn</span>
+                <span class="products-card__product-price"
+                  >$14.99<span class="product-price__span"> $20.99</span></span
+                >
+                <img class="rating" src="photos/Rating.svg" alt="rating" />
+              </div>
+            </div>
+
+            <div class="products-card__text">
+              <img
+                class="products-card__img"
+                src="photos/eggplant.svg"
+                alt="Eggplant"
+              />
+              <div class="products-card__product">
+                <span class="products-card__product-heading">Eggplant</span>
+                <span class="products-card__product-price">$14.99</span>
+                <img class="rating" src="photos/Rating.svg" alt="rating" />
+              </div>
+            </div>
+
+            <div class="products-card__text">
+              <img
+                class="products-card__img"
+                src="photos/cauliflower.svg"
+                alt="Cauliflower"
+              />
+              <div class="products-card__product">
+                <span class="products-card__product-heading">Cauliflower</span>
+                <span class="products-card__product-price">$14.99</span>
+                <img class="rating" src="photos/Rating.svg" alt="rating" />
+              </div>
+            </div>
+
+            <div class="products-card__text">
+              <img
+                class="products-card__img"
+                src="photos/appleXlear.svg"
+                alt="Green Apple"
+              />
+              <div class="products-card__product">
+                <span class="products-card__product-heading">Green Apple</span>
+                <span class="products-card__product-price">$14.99</span>
+                <img class="rating" src="photos/Rating.svg" alt="rating" />
+              </div>
+            </div>
+
+            <div class="products-card__text">
+              <img
+                class="products-card__img"
+                src="photos/greencap.svg"
+                alt="Green Capsicum"
+              />
+              <div class="products-card__product">
+                <span class="products-card__product-heading"
+                  >Green Capsicum</span
+                >
+                <span class="products-card__product-price">$14.99</span>
+                <img class="rating" src="photos/Rating.svg" alt="rating" />
+              </div>
+            </div>
+
+            <div class="products-card__text">
+              <img
+                class="products-card__img"
+                src="photos/chilli.svg"
+                alt="Green Chili"
+              />
+              <div class="products-card__product">
+                <span class="products-card__product-heading">Green Chili</span>
+                <span class="products-card__product-price">$14.99</span>
+                <img class="rating" src="photos/Rating.svg" alt="rating" />
+              </div>
+            </div>
+
+            <div class="products-card__text">
+              <button class="products-card__btnRed">Sale 50%</button>
+              <img
+                class="products-card__img"
+                src="photos/cucumber.svg"
+                alt="Green Cucumber"
+              />
+              <div class="products-card__product">
+                <span class="products-card__product-heading"
+                  >Green Cucumber</span
+                >
+                <span class="products-card__product-price"
+                  >$14.99<span class="product-price__span"> $20.99</span>
+                </span>
+                <img class="rating" src="photos/Rating.svg" alt="rating" />
+              </div>
+            </div>
+
+            <div class="products-card__text">
+              <img
+                class="products-card__img"
+                src="photos/lettuce.svg"
+                alt="Green Lettuce"
+              />
+              <div class="products-card__product">
+                <span class="products-card__product-heading"
+                  >Green Lettuce</span
+                >
+                <span class="products-card__product-price">$14.99</span>
+                <img class="rating" src="photos/Rating.svg" alt="rating" />
+              </div>
+            </div>
+
+            <div class="products-card__text">
+              <img
+                class="products-card__img"
+                src="photos/ladiesfinger.svg"
+                alt="Ladies Finger"
+              />
+              <div class="products-card__product">
+                <span class="products-card__product-heading"
+                  >Ladies Finger</span
+                >
+                <span class="products-card__product-price">$14.99</span>
+                <img class="rating" src="photos/Rating.svg" alt="rating" />
+              </div>
+            </div>
+
+            <div class="products-card__text">
+              <img
+                class="products-card__img"
+                src="photos/redCap.svg"
+                alt="Red Capsicum"
+              />
+              <div class="products-card__product">
+                <span class="products-card__product-heading">Red Capsicum</span>
+                <span class="products-card__product-price">$14.99</span>
+                <img class="rating" src="photos/Rating.svg" alt="rating" />
+              </div>
+            </div>
+
+            <div class="products-card__text">
+              <img
+                class="products-card__img"
+                src="photos/redchillii.svg"
+                alt="Red Chili"
+              />
+              <div class="products-card__product">
+                <span class="products-card__product-heading">Red Chilli</span>
+                <span class="products-card__product-price">$14.99</span>
+                <img class="rating" src="photos/Rating.svg" alt="rating" />
+              </div>
+            </div>
+
+            <div class="products-card__text">
+              <img
+                class="products-card__img"
+                src="photos/tomstto.svg"
+                alt="Red Tomato"
+              />
+              <div class="products-card__product">
+                <span class="products-card__product-heading">Red Tomato</span>
+                <span class="products-card__product-price">$14.99</span>
+                <img class="rating" src="photos/Rating.svg" alt="rating" />
+              </div>
+            </div>
+
+            <div class="products-card__text">
+              <img
+                class="products-card__img"
+                src="photos/mango.svg"
+                alt="Fresh Mango"
+              />
+              <div class="products-card__product">
+                <span class="products-card__product-heading">Fresh Mango</span>
+                <span class="products-card__product-price">$14.99</span>
+                <img class="rating" src="photos/Rating.svg" alt="rating" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="section subscribeContainer">
+        <div class="section__content categoriesSection subscribeSection">
+          <div class="subscribeSection__info">
+            <div class="subscribeSection__info-description">
+              <h4 class="subscribeSection__info-description-header">
+                Subcribe our Newsletter
+              </h4>
+              <p class="subscribeSection__info-description-text">
+                Pellentesque eu nibh eget mauris congue mattis mattis nec
+                tellus. Phasellus imperdiet elit eu magna.
+              </p>
+            </div>
+
+            <div class="subscribeSection__info-socialinput">
+              <div class="searchSection__input subscribeSection__info-input">
+                <input
+                  type="email"
+                  placeholder="Your email address"
+                  id="mail__input"
+                />
+                <input type="button" value="Subscribe" id="Subscribe__btn" />
+              </div>
+
+              <div class="subscribeSection__info-social">
+                <img src="photos/facebook.svg" alt="social icon" />
+                <img src="photos/twitter.svg" alt="social icon" />
+                <img src="photos/pinterest.svg" alt="social icon" />
+                <img src="photos/instagram.svg" alt="social icon" />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="section footerContainerMain">
+        <div class="section__content categoriesSection">
+          <div class="footerSection">
+            <div class="footerSection__logo">
+              <img
+                class="ecobazarFooter__logo"
+                src="photos/LogoFooter.svg"
+                alt="ecobazar logo"
+              />
+              <p class="footerSection__description">
+                Morbi cursus porttitor enim lobortis molestie. Duis gravida
+                turpis dui, eget bibendum magna congue nec.
+              </p>
+              <span class="footerSection__Number"
+                >(219) 555-0114 <span class="footerSection-or">or</span>
+                <span class="footerSection__mail"></span> Proxy@gmail.com
+              </span>
+            </div>
+
+            <div class="footerSection__account">
+              <span class="footerSection__account-header">My Account</span>
+              <a href="account.html" class="footerSection__account-topics"
+                >My Account</a
+              >
+              <a href="history.html" class="footerSection__account-topics"
+                >Order History</a
+              >
+              <a
+                href="cart.html"
+                class="footerSection__account-topics whiteFooter"
+                >Shopping Cart</a
+              >
+              <span class="footerSection__account-topics">Whishlist</span>
+            </div>
+
+            <div class="footerSection__account">
+              <span class="footerSection__account-header">Helps</span>
+              <span class="footerSection__account-topics">Faqs</span>
+              <span class="footerSection__account-topics"
+                >Terms & Condition</span
+              >
+              <span class="footerSection__account-topics">Faqs</span>
+              <span class="footerSection__account-topics">Privacy Policy</span>
+            </div>
+
+            <div class="footerSection__account">
+              <span class="footerSection__account-header">Proxy</span>
+              <span class="footerSection__account-topics">About</span>
+              <span class="footerSection__account-topics">Shop</span>
+              <span class="footerSection__account-topics">Product</span>
+              <span class="footerSection__account-topics">Track Order</span>
+            </div>
+
+            <div class="footerSection__account">
+              <span class="footerSection__account-header">Categories</span>
+              <span class="footerSection__account-topics"
+                >Fruit & Vegetables</span
+              >
+              <span class="footerSection__account-topics">Meat & Fish</span>
+              <span class="footerSection__account-topics">Bread & Bakery</span>
+              <span class="footerSection__account-topics">Beauty & Health</span>
+            </div>
+          </div>
+
+          <div class="footerRights">
+            <div class="footerRight-text">
+              <span>Ecobazar eCommerce © 2021. All Rights Reserved</span>
+            </div>
+
+            <div class="footerRight-cards">
+              <img src="photos/Method=ApplePay.svg" alt="apple pay" />
+              <img src="photos/Method=Visa.svg" alt="visa pay" />
+              <img src="photos/Method=Discover.svg" alt="discover pay" />
+              <img src="photos/Method=Mastercard.svg" alt="mastercard pay" />
+              <img src="photos/securePayment.svg" alt="secure pay" />
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
